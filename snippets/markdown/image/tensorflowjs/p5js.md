@@ -9,7 +9,7 @@ Open up the code snippet below directly in the [p5.js Web Editor](https://editor
   // Classifier Variable
   let classifier;
   // Model URL
-  let imageModelURL = '{{URL}}';
+  let imageModelURL = './my_model/';
   
   // Video
   let video;
@@ -68,4 +68,4 @@ Open up the code snippet below directly in the [p5.js Web Editor](https://editor
     classifyVideo();
   }
 </script>
-```
+
